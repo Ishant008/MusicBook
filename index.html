@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Book - Enjoy the Music</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <main>
+        <div class="left" id="div2">
+            <img src="svg/cross.svg" alt="" class="cross">
+            <div class="home">
+                <img class="img1" src="svg/Music.svg" alt=""><span class="logo">Music Book</span>
+                <img src="svg/home.svg" alt="" class="img2"> <span class="home-span">Home</span>
+                <img src="svg/search.svg" alt="" class="img3">
+                <span class="search-span">Search</span>
+            </div>
+            <div class="library">
+                <div class="head">
+                    <img class="head-img" src="svg/library.svg" alt="">
+                    <img src="svg/library1.svg" alt="" class="head-img head-img1"><span>Your Library</span>
+                </div>
+                <div class="songlist scroll-container1">
+                    <div class="song" id="playsong11_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">The Way I Am</div><div class="infosing">Charlie Puth</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+
+                    <div class="song" id="playsong2_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Attention</div><div class="infosing">Charlie Puth</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong5_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Paris</div><div class="infosing">Chainsmokers</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong3_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Lush Life</div><div class="infosing">Zara Larsson</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong4_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Rude</div><div class="infosing">Magic</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong1_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Permission to dance</div><div class="infosing">BTS</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong8_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">My ordinary life</div><div class="infosing">The Living Tombstone</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+
+                    <div class="song" id="playsong6_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Bad Boy</div><div class="infosing">Marwa Loud</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong7_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Stiches</div><div class="infosing">Shawn Mendes</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+
+                    <div class="song" id="playsong9_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">Night Changes</div><div class="infosing">One Direction</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                    <div class="song" id="playsong10_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname">DarkSide</div><div class="infosing">NIONI</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+
+                    <div class="song" id="playsong12_1" onclick="getId(this.id);">
+                        <img src="svg/songplay.svg" alt="">
+                        <div class="info">
+                            <div class="infoname"> Wave</div><div class="infosing">Ateez</div>
+                        </div>
+                        <img src="svg/play1.svg" alt="" class="song-play1">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right scroll-container">
+            <div class="header">
+                <img src="svg/hamburger.svg" alt="" class="hamburger">
+                <div class="nav">
+                    <img class="navimg" src="svg/left.svg" alt="">
+                    <img class="navimg" src="svg/right.svg" alt="">
+                </div>
+                <div class="btn">
+                    <button class="btn1">Sign up</button>
+                    <button class="btn2">Login</button>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="heading">Favourite Songs</div>
+                <div class="card-box">
+                    <div class="card" id="card1">
+                        <div class="play" id="playsong1_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover1.jpg" alt="">
+                        <div class="cardsongname">Permission to dance</div>
+                        <p class="cardsinger">BTS</p>
+                    </div>
+                    <div class="card" id="card2">
+                        <div class="play" id="playsong2_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover2.jpg" alt="">
+                        <div class="cardsongname">Attention</div>
+                        <p class="cardsinger">Charlie Puth</p>
+                    </div>
+                    <div class="card" id="card3">
+                        <div class="play" id="playsong3_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover3.jpg" alt="">
+                        <div class="cardsongname">Lush Life</div>
+                        <p class="cardsinger">Zara Larsson</p>
+                    </div>
+                    <div class="card" id="card4">
+                        <div class="play" id="playsong4_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover4.jpg" alt="">
+                        <div class="cardsongname">Rude</div>
+                        <p class="cardsinger">Magic</p>
+                    </div>
+                    <div class="card" id="card5">
+                        <div class="play" id="playsong5_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover5.jpg" alt="">
+                        <div class="cardsongname">Paris</div>
+                        <p class="cardsinger">Chainsmokers</p>
+                    </div>
+                    <div class="card" id="card6">
+                        <div class="play" id="playsong6_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover6.jpg" alt="">
+                        <div class="cardsongname">Bad Boys</div>
+                        <p class="cardsinger">Marwa Loud</p>
+                    </div>
+                    <div class="card" id="card7">
+                        <div class="play" id="playsong7_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover7.jpg" alt="">
+                        <div class="cardsongname">Stiches</div>
+                        <p class="cardsinger">Shawn Mendes</p>
+                    </div>
+                    <div class="card" id="card8">
+                        <div class="play" id="playsong8_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover8.jpg" alt="">
+                        <div class="cardsongname">My Ordinary Life</div>
+                        <p class="cardsinger">The Living Tombstone</p>
+                    </div>
+                    <div class="card" id="card9">
+                        <div class="play" id="playsong9_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover9.jpg" alt="">
+                        <div class="cardsongname">Night Changes</div>
+                        <p class="cardsinger">One Direction</p>
+                    </div>
+                    <div class="card" id="card10">
+                        <div class="play" id="playsong10_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover10.jpg" alt="">
+                        <div class="cardsongname">DarkSide</div>
+                        <p class="cardsinger">Nioni</p>
+                    </div>
+                    <div class="card" id="card11">
+                        <div class="play" id="playsong11_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover11.jpg" alt="">
+                        <div class="cardsongname">The Way I Am</div>
+                        <p class="cardsinger">Charlie Puth</p>
+                    </div>
+                    <div class="card" id="card12">
+                        <div class="play" id="playsong12_2" onclick="getId1(this.id);">
+                            <img src="svg/play.svg" alt="">
+                        </div>
+                        <img src="cover/cover12.jpg" alt="">
+                        <div class="cardsongname">Wave</div>
+                        <p class="cardsinger">Ateez</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <div style="display: none;" class="playbar">
+        <img src="" alt="" class="playcover">
+        <div class="playbarinfo">
+            <div class="songname"></div>
+            <div class="singer"></div>
+        </div>
+        <div class="ppn">
+            <img id="previous_ppn" class="loop" src="svg/loop.svg" alt="">
+            <img id="play_ppn" src="svg/play1.svg" alt="">
+            <img id="next_ppn" class="nextsong" src="svg/next.svg" alt="">
+        </div>
+        <div class="duration">
+        </div>
+        <div class="seekbar">
+            <div class="runseekbar"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
